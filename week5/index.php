@@ -6,7 +6,8 @@
 <body>
 <h1>Kaya Ota</h1>
 <?php 
-$name = "
+$my_name = "Kaya Ota";
+$my_letter = "
 **    ** 
 **   **  
 **  **   
@@ -15,19 +16,24 @@ $name = "
 **   **  
 **    ** 
 ";
-$my_hash = hash('sha256', 'Kaya Ota');
+$my_hash = hash('sha256', $my_name);
 ?>
+
 <pre>
+ASCII ART of Kaya's K:
     <?php
-     echo $name;
+     echo $my_letter;
     ?>
 </pre>
+<br>
 <pre>
+The SHA256 hash of "<?php echo $my_name?> " is
 <?php 
   echo $my_hash;
 ?>
 </pre>
 <a href="fail.php"> Clieck here to jump fail.php</a>
+<br>
 <a href="check.php"> Clieck here to jump check.php</a>
 
 
