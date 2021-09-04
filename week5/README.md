@@ -28,3 +28,5 @@ For this assignment you will hand in:
 - Image of your application showing the URL bar and output of `fail.php`
 - Image of your application showing the URL bar output of `check.php`
 - Source code of your `index.php`
+
+Copyright Creative Commons Attribution 3.0 - Charles R. Severance
