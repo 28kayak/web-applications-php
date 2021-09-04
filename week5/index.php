@@ -22,11 +22,13 @@ $my_hash = hash('sha256', 'Kaya Ota');
      echo $name;
     ?>
 </pre>
+<pre>
 <?php 
   echo $my_hash;
 ?>
-<a href="week5/fail.php"> Clieck here to jump fail.php</a>
-<a href="week5/check.php"> Clieck here to jump check.php</a>
+</pre>
+<a href="fail.php"> Clieck here to jump fail.php</a>
+<a href="check.php"> Clieck here to jump check.php</a>
 
 
 </body>
